@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/styles/index.css">
+    <link 
+        rel="shortcut icon" 
+        href="./public/img/icon.png" 
+        type="image/x-icon"/>
+    <title>Problema del Granjero</title>
+</head>
+<body>
+    <div id="start">
+        <img 
+            alt="Portada" 
+            src="./public/img/start.png"/>
+    </div>
+    <section id="game">
+        <div id="case-menu">
+            <img 
+                id="parrot-eaten-case"
+                class="case-btn" 
+                src="./public/img/cases/loro_is_eaten.svg" 
+                alt="Loro es comido por el halcón"/>
+            <img 
+                id="walnuts-eaten-case"
+                class="case-btn" 
+                src="./public/img/cases/walnuts_are_eaten.svg" 
+                alt="Las nueces fueron comidas por el loro"/>
+            <img 
+                id="solution-case"
+                class="case-btn" 
+                src="./public/img/cases/solution.svg" 
+                alt="Solución"/>
+        </div>
+        <section id="wrapper">
+            <div class="resolve" 
+                id="error">
+                <img 
+                    src="./public/img/error.png" alt="error"/>
+            </div>
+            <div class="resolve" 
+                id="success">
+                <img 
+                    src="./public/img/success.png" alt="success"/>
+            </div>
+            <img id="background" alt="background" src="./public/img/background.png"/>
+            <img 
+                class="character low" 
+                id="boat" 
+                alt="boat" 
+                src="./public/img/boat.png" />
+            <img 
+                class="character" 
+                id="farmer"
+                alt="farmer" 
+                src="./public/img/farmer.png" />
+            <img 
+                class="character" 
+                id="hawk"
+                alt="hawk" 
+                src="./public/img/hawk.png" />
+            <img 
+                class="character" 
+                id="parrot"
+                alt="parrot" 
+                src="./public/img/parrot.png" />
+            <img 
+                class="character"
+                id="basket_of_walnuts"
+                src="./public/img/basket_of_walnuts.png" 
+                alt="basket_of_walnuts">
+        </section>
+    </section>
+    <script type="module" src="./public/scripts/index.js"></script>
+</body>
+</html>
